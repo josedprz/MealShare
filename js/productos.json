@@ -1,0 +1,182 @@
+[
+    {
+        "id": "abrigo-01",
+        "titulo": "Tomatoes",
+        "imagen": "./img/abrigos/01.jpg",
+        "categoria": {
+            "nombre": "Vegetables",
+            "id": "abrigos"
+        },
+        "precio": "x0.5 kg"
+    },
+    {
+        "id": "abrigo-02",
+        "titulo": "Potatoes",
+        "imagen": "./img/abrigos/02.jpg",
+        "categoria": {
+            "nombre": "Vegetables",
+            "id": "abrigos"
+        },
+        "precio": "x0.5 kg"
+    },
+    {
+        "id": "abrigo-03",
+        "titulo": "Cauliflower",
+        "imagen": "./img/abrigos/03.jpg",
+        "categoria": {
+            "nombre": "Vegetables",
+            "id": "abrigos"
+        },
+        "precio": "x1 piece"
+    },
+    {
+        "id": "abrigo-04",
+        "titulo": "Celery",
+        "imagen": "./img/abrigos/04.jpg",
+        "categoria": {
+            "nombre": "Vegetables",
+            "id": "abrigos"
+        },
+        "precio": "x0.5 kg"
+    },
+    {
+        "id": "abrigo-05",
+        "titulo": "Onion",
+        "imagen": "./img/abrigos/05.jpg",
+        "categoria": {
+            "nombre": "Vegetables",
+            "id": "abrigos"
+        },
+        "precio": "x0.5 kg"
+    },
+    {
+        "id": "camiseta-01",
+        "titulo": "Orange",
+        "imagen": "./img/camisetas/01.jpg",
+        "categoria": {
+            "nombre": "Fruits",
+            "id": "camisetas"
+        },
+        "precio": "x0.5 kg"
+    },
+    {
+        "id": "camiseta-02",
+        "titulo": "Watermelon",
+        "imagen": "./img/camisetas/02.jpg",
+        "categoria": {
+            "nombre": "Fruits",
+            "id": "camisetas"
+        },
+        "precio": "x1 piece"
+    },
+    {
+        "id": "camiseta-03",
+        "titulo": "Banana",
+        "imagen": "./img/camisetas/03.jpg",
+        "categoria": {
+            "nombre": "Fruits",
+            "id": "camisetas"
+        },
+        "precio": "x0.5 kg"
+    },
+    {
+        "id": "camiseta-04",
+        "titulo": "Strawberry",
+        "imagen": "./img/camisetas/04.jpg",
+        "categoria": {
+            "nombre": "Fruits",
+            "id": "camisetas"
+        },
+        "precio": "x0.5 kg"
+    },
+    {
+        "id": "camiseta-05",
+        "titulo": "Mango",
+        "imagen": "./img/camisetas/05.jpg",
+        "categoria": {
+            "nombre": "Fruits",
+            "id": "camisetas"
+        },
+        "precio": "x0.5 kg"
+    },
+    {
+        "id": "camiseta-06",
+        "titulo": "Melon",
+        "imagen": "./img/camisetas/06.jpg",
+        "categoria": {
+            "nombre": "Fruits",
+            "id": "camisetas"
+        },
+        "precio": "x1 piece"
+    },
+    {
+        "id": "camiseta-07",
+        "titulo": "Papaya",
+        "imagen": "./img/camisetas/07.jpg",
+        "categoria": {
+            "nombre": "Fruits",
+            "id": "camisetas"
+        },
+        "precio": "x1 piece"
+    },
+    {
+        "id": "camiseta-08",
+        "titulo": "Grapes",
+        "imagen": "./img/camisetas/08.jpg",
+        "categoria": {
+            "nombre": "Fruits",
+            "id": "camisetas"
+        },
+        "precio": "x0.5 kg"
+    },
+    {
+        "id": "pantalon-01",
+        "titulo": "Jalapeno",
+        "imagen": "./img/pantalones/01.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": "x1 piece"
+    },
+    {
+        "id": "pantalon-02",
+        "titulo": "Beans",
+        "imagen": "./img/pantalones/02.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": "x1 piece"
+    },
+    {
+        "id": "pantalon-03",
+        "titulo": "Homemade Sauce",
+        "imagen": "./img/pantalones/03.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": "x1 piece"
+    },
+    {
+        "id": "pantalon-04",
+        "titulo": "Tomato",
+        "imagen": "./img/pantalones/04.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": "x1 piece"
+    },
+    {
+        "id": "pantalon-05",
+        "titulo": "Lechera",
+        "imagen": "./img/pantalones/05.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": "x1 piece"
+    }
+]
