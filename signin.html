@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Welcome to MealShare!</title>
+        <link rel="stylesheet" type="text/css" href="css/signin.css">
+        <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+        <script src="js/jquery-3.7.1.js"></script>
+        <script src="js/index.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <script type="">
+            getElementById("loginform").submit(function(e){
+                e.preventDefault();
+            });
+            function openForm() {
+            document.getElementById("myForm").style.display = "block";
+            }
+
+            function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+            }
+        </script>
+    </head>
+    <body class="container-fluid" style="margin: 0px; padding: 0px; overflow-x: hidden;">
+        <!-- A button to open the popup form -->
+
+        <!-- The form -->
+        <div class="form-popup" id="myForm">
+        <form class="form-container" id="loginform">
+            <h1>Login</h1>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" value="MealShare@meals.net" name="email" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" value="MealShare1234" name="psw" required>
+
+            <a href="bancos.html" id="foodbank" onclick="openbancos()"><div class="btn">Login as Food bank</div></a>
+            <a href="dashboard.html" id="donator" onclick="opendash()"><div class="btn">Login as Donator</div></a>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+        </div>
+        <div class="row" id="barra" style="color: white; margin-left: 0%;">
+            <a id="comp_name" href="" class="col-lg-2 col-md-12 col-sm-12" style="color: white;">MealShare</a>
+            <div class="col-lg-5"></div>
+            <a href="" class="col-lg-1 col-md-2 col-sm-2" style="color: white;"></a>
+            <a href="green/index.html" class="col-lg-1 col-md-2 col-sm-2" style="color: white;"><span style="color: greenyellow;">Green</span> Market</a>
+            <a href="about.html" class="col-lg-1 col-md-2 col-sm-2" style="color: white;">About Us</a>
+            <a href="#" onclick="openForm()" class="col-lg-1 col-md-2 col-sm-2" style="color: white;">Log-in</a>
+        </div>
+
+        <div class="wrapper">
+            <div class="title">
+            Registration Form
+            </div>
+            <div class="form">
+                <div class="inputfield">
+                    <label>Company's Name</label>
+                    <input type="text" class="input" value="MealShare">
+                </div>  
+                <div class="inputfield">
+                    <label>Email Address</label>
+                    <input type="text" class="input" value="mealshare@meals.net">
+                </div>  
+                <div class="inputfield">
+                    <label>Password</label>
+                    <input type="password" class="input" value="mealshare1234">
+                </div>  
+                <div class="inputfield">
+                    <label>Confirm Password</label>
+                    <input type="password" class="input" value="mealshare1234">
+                </div> 
+                <div class="inputfield">
+                    <label>Are you interested in?</label>
+                    <div class="custom_select">
+                        <select>
+                        <option value="">Select</option>
+                        <option value="receive">Receiving Donations</option>
+                        <option value="donate" selected>Donate</option>
+                        </select>
+                    </div>
+                </div> 
+                <div class="inputfield">
+                    <label>Company Type</label>
+                    <div class="custom_select">
+                        <select>
+                            <option value="">Select</option>
+                            <option value="fbank">Food Bank</option>
+                            <option value="biomass">BioMass Central</option>
+                            <option value="biogas">BioGas Central</option>
+                            <option value="donator" selected>Donator</option>
+                        </select>
+                    </div>
+                </div> 
+                <div class="inputfield">
+                    <label>Phone Number</label>
+                    <input type="text" class="input" value="5654378457">
+                </div> 
+                <div class="inputfield">
+                    <label>Address</label>
+                    <textarea class="textarea">Address Line 1, Address Line 2, Mexico City</textarea>
+                </div> 
+                <div class="inputfield">
+                    <label>Postal Code</label>
+                    <input type="text" class="input" value="89453">
+                </div> 
+                <div class="inputfield terms">
+                    <label class="check">
+                        <input type="checkbox" checked>
+                        <span class="checkmark"></span>
+                    </label>
+                    <p>Agreed to terms and conditions</p>
+                </div>
+                <a href="dashboard.html"> 
+                <div class="inputfield">
+                    <input type="submit" value="Register" class="btn">
+                </div>
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
